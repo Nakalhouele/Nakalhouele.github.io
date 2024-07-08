@@ -2,6 +2,11 @@
  * Globals
  */
 
+:root {
+  --primary-color: #fd7e14;
+}
+
+/*--orange: #ff5826*/
 
 /* Custom default button */
 .btn-light,
@@ -11,7 +16,9 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+/*.text-body-primary {*/
 
+/*}*/
 /*
  * Base structure
  */
@@ -36,7 +43,7 @@ body {
  */
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
+  color: var(--primary-color);
   border-bottom: .25rem solid transparent;
 }
 
